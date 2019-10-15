@@ -1,35 +1,46 @@
 @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap");
 
 body {
+  height: 100%;
+  width: 100%;
   display: grid;
   grid-template-columns: 100px, 1fr;
-  grid-template-rows: 1fr, 2fr, 0.5fr;
+  grid-template-rows: 100px, 2fr, 0.5fr;
   background-color: black;
   font-family: "Alegreya Sans", sans-serif;
   text-align: center;
   font-weight: 400;
 }
 
+.reveal {
+  background-image: url("/images/masked.png");
+}
+.reveal:hover {
+  background-image: url("/images/unmasked.png");
+}
 
 .sticky {
   position: sticky;
   top: 0;
-  color:white;
+  color: white;
 }
 
-#day2,#day3,#day4,#day5{
-display:none;
+#day2,
+#day3,
+#day4,
+#day5 {
+  display: none;
 }
 
-button{
-  width:100px;
+button {
+  width: 100px;
   background-color: black;
   border: none;
   color: white;
 }
 
-button:hover{
-  font-size: 0.90em;
+button:hover {
+  font-size: 0.9em;
 }
 
 figure {
@@ -40,11 +51,6 @@ figure {
   margin-left: auto;
   margin-right: auto;
   background-color: grey;
-}
-
-figcaption {
-  margin-top: 0;
-  margin-bottom: 1em;
 }
 
 a {
@@ -61,7 +67,7 @@ a {
 }
 
 .header {
-  display:flex;
+  display: flex;
   justify-content: space-around;
 }
 
@@ -77,12 +83,12 @@ h2 {
   font-size: 3em;
 }
 
-h1{
-  color:white;
+h1 {
+  color: white;
   font-size: 3em;
 }
 
-.subtitle{
+.subtitle {
   font-size: 2em;
 }
 
@@ -109,13 +115,12 @@ p {
 .top {
   grid-column: 2;
   grid-row: 1;
-  background-color:#363057;
+  background-color: #363057;
 }
 
 .top img {
   width: 100px;
-  margin-top:50px;
-
+  margin-top: 50px;
 }
 
 .top h2 {
