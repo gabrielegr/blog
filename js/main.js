@@ -1,12 +1,4 @@
 
-/*function toggle_day(day,no_day){
-    let this_day=document.getElementById(`day${day}`)
-    this_day.style.display = "block" 
-
-for (i = 1; i <= no_day.length; i++) {
-  let remove_display=document.getElementById(`day${no_day[i]}`)  
-  remove_display.style.display = "none" 
-}}*/ 
 
 function day_btn(){
 let btn_day1 = document.getElementById('btn_day1')
