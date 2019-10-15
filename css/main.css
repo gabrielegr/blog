@@ -17,11 +17,20 @@ body {
   color:white;
 }
 
-.day2,.day3,.day4,.day5{
+#day2,#day3,#day4,#day5{
 display:none;
 }
 
+button{
+  width:100px;
+  background-color: black;
+  border: none;
+  color: white;
+}
 
+button:hover{
+  font-size: 0.90em;
+}
 
 figure {
   width: 40%;
@@ -104,7 +113,7 @@ p {
 }
 
 .top img {
-  width: 150px;
+  width: 100px;
   margin-top:50px;
 
 }
